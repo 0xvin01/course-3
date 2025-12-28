@@ -1,0 +1,71 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+/*int main()
+{
+	//root
+
+	double x = 64;
+	cout << "square root value of 65 : " << sqrt(x) << endl;
+	cout << "square root value of 50 : " << sqrt(50) << endl;
+
+	return 0;
+}*/
+
+//int main()
+//{
+//	//round
+//
+//	cout << round(2.4) << endl; //gives 2
+//	cout << round(2.5) << endl; //gives 3
+//	cout << round(2.7) << endl; //gives 3
+//
+//	cout << sqrt(50) << endl; //gives 7.07107
+//	cout << round(sqrt(50)) << endl; //gives 7
+//
+//
+//
+//	return 0;
+//}
+
+//int main()
+//{
+//	//pow
+//
+//	int x = 2, y = 4;
+//
+//	cout << pow(x, y) << endl; //gives 16
+//	cout << pow(4, 3) << endl; //gives 64
+//
+//	return 0;
+//}
+
+
+
+//
+//int main()
+//{
+//	//ceil & flloor
+//
+//	cout << ceil(2.9) << endl; //gives 3
+//	cout << floor(2.9) << endl; //gives 2
+//
+//	
+//	cout << ceil(-2.9) << endl; //gives -2
+//	cout << floor(-2.9) << endl; //gives -3
+//
+//	return 0;
+//}
+
+int main()
+{
+	//abs
+
+	cout << abs(-10) << endl; //gives 10
+	cout << abs(10) << endl; //gives 10
+
+	return 0;
+}
+
+
