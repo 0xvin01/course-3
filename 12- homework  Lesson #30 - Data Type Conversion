@@ -1,0 +1,27 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+int main()
+{
+	
+	string st1 = "43.22";
+	int N1 = 20;
+	double N2 = 33.5;
+	float N3 = 55.23;
+	//1
+	int str_int = stoi(st1);
+	float str_float = stof(st1);
+	double str_double = stod(st1);
+	//2
+	string int_str = to_string(N1);
+	//3
+	string double_str = to_string(N2);
+	//4
+	string float_str = to_string(N3);
+	int float_int = int(N3);
+
+	return 0;
+}
+
