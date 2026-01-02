@@ -1,0 +1,47 @@
+#include <iostream>
+using namespace std;
+
+
+
+struct stAddress
+{
+	string street;
+	string PoBox;
+};
+
+
+struct stowner
+{
+	string FullName;
+	string Phone;
+	stAddress Address;
+};
+
+
+
+struct Car 
+{
+	string Brandl;
+	string Model;
+	int Year;
+	stowner owner;
+};
+
+
+
+
+int main()
+{
+	Car Mycar1;
+	Mycar1.Brandl = "Marcedes"; 
+	Mycar1.Model = "Class";
+	Mycar1.Year = 2026;
+	Mycar1.owner.FullName = "vin ";
+	Mycar1.owner.Phone = " 9213912393";
+	Mycar1.owner.Address.street = "irbid";
+	cout << Mycar1.Brandl << " " << Mycar1.Model << " " << Mycar1.Year << endl;
+ 
+	return 0;
+}
+
+
