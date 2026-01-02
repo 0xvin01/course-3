@@ -1,0 +1,56 @@
+#include <iostream>
+using namespace std;
+
+struct info1
+{
+	string FullName;
+	int age;
+	char Gender;
+	bool Married;
+	int salary;
+	int ysalary;
+};
+
+struct Address 
+{
+	string city;
+	string country;
+};
+
+struct contact 
+{
+
+	string email;
+	string phone;
+};
+
+int main()
+{
+	info1 person1;
+	person1.FullName = "vin";
+	person1.age = 20;
+	person1.Gender = 'M';
+	person1.Married = true;
+	person1.salary = 3000;
+	person1.ysalary = 36000;
+
+	Address person1address;
+	person1address.city = "irbid";
+	person1address.country = "Jordan";
+	
+
+	cout << "**********************************" << endl;
+	cout << person1.FullName << endl;
+	cout << person1.age << endl;
+	cout << person1address.city << endl;
+	cout << person1address.country << endl;
+	cout << person1.salary << endl;
+	cout << person1.ysalary << endl;
+	cout << person1.Gender << endl;
+	cout << person1.Married << endl;
+	cout << "**********************************" << endl;
+ 
+	return 0;
+}
+
+
