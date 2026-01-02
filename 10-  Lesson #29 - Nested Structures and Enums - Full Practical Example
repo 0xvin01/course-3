@@ -1,0 +1,65 @@
+#include <iostream>
+using namespace std;
+
+
+enum enColor { Red, Green , Yellow, Blue};
+enum enGender {Male, Femaile };
+enum enMaritalStatus { Single, Married};
+
+
+struct stAddress
+{
+	string StreetName;
+	string BuildingNo;
+	string POBox;
+	string ZipCode;
+};
+
+struct stContactInfo
+{
+	string Phone;
+	string Email;
+	stAddress Address;
+};
+
+struct stPerson
+{
+	string FirstName;
+	string LastName;
+
+	stContactInfo ContactInfo;
+
+	enMaritalStatus MaritalStatus;
+	enGender Gender;
+	enColor FavouratColor;
+};
+
+
+
+
+
+int main()
+{
+	stPerson Person1;
+
+	Person1.FirstName = "vin";
+	Person1.LastName = "idk";
+	
+	Person1.ContactInfo.Email = "vin@vin.com";
+	Person1.ContactInfo.Phone = "+882342734732";
+	Person1.ContactInfo.Address.POBox = "77777";
+	Person1.ContactInfo.Address.ZipCode = "1111";
+	Person1.ContactInfo.Address.StreetName = "vin street ";
+	Person1.ContactInfo.Address.BuildingNo = "07";
+
+	Person1.Gender = enGender::Male;
+	Person1.MaritalStatus = enMaritalStatus::Married;
+	Person1.FavouratColor = enColor::Blue;
+
+
+	cout << Person1.FirstName << endl;
+ 
+	return 0;
+}
+
+
