@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+
+enum Color {red, green , yellow, blue};
+enum
+
+
+int main()
+{
+	Color iscolor;
+	iscolor = Color::blue;
+
+ 
+	return 0;
+}
