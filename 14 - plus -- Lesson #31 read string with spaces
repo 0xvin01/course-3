@@ -1,1 +1,19 @@
-a
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+int main()
+{
+	 
+	string FullName;
+
+	getline(cin, FullName);
+
+	cout << FullName << endl;
+
+
+
+	return 0;
+}
+
