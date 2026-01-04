@@ -1,0 +1,54 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+void cardinfo()
+{
+	cout << "******************************" << endl;
+	cout << "Name : vin" << endl;
+	cout << "Age : 20 Years" << endl;
+	cout << "city : Irbid" << endl;
+	cout << "country : Jordan" << endl;
+	cout << "******************************" << endl;
+}
+
+void square()
+{
+	cout << "********" << endl;
+	cout << "********" << endl;
+	cout << "********" << endl;
+	cout << "********" << endl;
+
+}
+
+void iloveprogramming()
+{
+	cout << "i love Programming!\n";
+	cout << "i Promise to be the best developer ever!\n";
+	cout << "\n";
+	cout << "i know it will take some time to practice , but\n I will archieve my goal.\n";
+	cout << "best Regards,\n vin" << endl;
+
+}
+
+
+void printH()
+{
+	cout << "*     *\n";
+	cout << "*     *\n";
+	cout << "*******\n";
+	cout << "*     *\n";
+	cout << "*     *\n";
+}
+
+int main()
+{
+	cardinfo();
+		square();
+		iloveprogramming();
+			printH();
+	return 0;
+}
+
+
