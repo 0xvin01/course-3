@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+void MyFundction()
+{
+	cout << "This is My fisrt Function is go executed " << endl;
+}
+
+
+int main()
+{
+	MyFundction();
+
+	return 0;
+}
+
+
