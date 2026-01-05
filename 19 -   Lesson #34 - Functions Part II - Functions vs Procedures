@@ -1,0 +1,33 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+void myfunction1()
+{
+	cout << "This is my first Procedure , it got executed " << endl;
+}
+
+string myfunction2()
+{
+	return "This is my fisrt returning value function this is value ";
+}
+
+int myfunction3()
+{
+	int x = 10;
+	int y = 30;
+
+	return x + y;
+}
+
+
+int main()
+{
+	myfunction1();
+	cout << myfunction2() << endl;
+	cout << myfunction3();
+	return 0;
+}
+
+
