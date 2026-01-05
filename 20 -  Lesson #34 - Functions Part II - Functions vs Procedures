@@ -1,0 +1,41 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+void mysum()
+{ 
+	int num1, num2;
+	cout << "Please enter Nymber 1 ?" << endl;
+	cin >> num1;
+
+	cout << "Please enter Nymber 2 ?" << endl;
+	cin >> num2;
+	cout << "********************************" << endl;
+
+	cout << num1 + num2;
+}
+
+
+int mysumfun()
+{
+	int num3, num4;
+	cout << "Please enter Nymber 1 ?" << endl;
+	cin >> num3;
+
+	cout << "Please enter Nymber 2 ?" << endl;
+	cin >> num4;
+	cout << "********************************" << endl;
+
+	return num3 + num4;
+}
+
+int main()
+{
+	//mysum();
+
+	cout << mysumfun();
+	return 0;
+}
+
+
