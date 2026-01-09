@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+
+void myfun(int &num1)
+{
+	num1 = 10000;
+
+	cout << " Number inside function become : " << num1 << endl;
+	
+}
+
+int main()
+{
+	int num1;   
+
+	num1 = 1000;
+
+	myfun(num1);
+
+	cout << "Number after calling the function become : " << num1 << endl;
+	
+	return 0;
+}
