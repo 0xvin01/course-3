@@ -1,0 +1,58 @@
+#include <iostream>
+using namespace std;
+
+
+struct strInfo
+{
+	string FirstName;
+	string LastName;
+	int Age;
+	string Phone;
+};
+
+void ReadInfo(strInfo &Info)
+{
+	cout << "Please enter FirstName : \n";
+	cin >> Info.FirstName;
+
+	cout << "Please enter LastName : \n";
+	cin >> Info.LastName;
+
+	cout << "Please enter Age : \n";
+	cin >> Info.Age;
+
+	cout << "Please enter Phone : \n";
+	cin >> Info.Phone;
+}
+
+void PrintInfo(strInfo Info)
+{
+	cout << "**********************************\n";
+	cout << Info.FirstName << endl;
+	cout << Info.LastName << endl;
+	cout << Info.Age << endl;
+	cout << Info.Phone << endl;
+	cout << "**********************************\n";
+}
+
+
+void ReadPersonsInfo(strInfo person[2])
+{
+	ReadInfo(person[0]);
+	ReadInfo(person[1]);
+}
+
+void PrintPersonsInfo(strInfo person[2])
+{
+	PrintInfo(person[0]);
+	PrintInfo(person[1]);
+}
+
+int main()
+{
+	strInfo person[2];
+
+	ReadPersonsInfo(person);
+	PrintPersonsInfo(person);
+	return 0;
+}
