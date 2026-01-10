@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+
+int main()
+{
+	float Grades[3];
+
+	cout << "Please enter Grade1 : " << endl;
+	cin >> Grades[0];
+
+	cout << "Please enter Grade2 : " << endl;
+	cin >> Grades[1];
+
+	cout << "Please enter Grade3 : " << endl;
+	cin >> Grades[2];
+
+	cout << "*****************************" << endl;
+	float avrage = (Grades[0] + Grades[1] + Grades[2]) / 3;
+	cout << "The avreage of grades is :" << avrage << endl;
+
+
+	return 0;
+}
