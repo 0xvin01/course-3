@@ -1,0 +1,86 @@
+#include <iostream>
+using namespace std;
+
+
+
+int main()
+{
+	/*int age;
+	bool lincense;
+	cout << " PLEASE ENTER YOUR AGE ?" << endl;
+	cin >> age;
+
+	cout << " Do you have driver lincense ?" << endl;
+	cin >> lincense;
+
+	if (age > 21 && lincense == true)
+	{
+		cout << "hire" << endl;
+	
+	}
+	else
+	{
+		cout << " nooooo" << endl;
+	}
+	cout << " cd" << endl;*/
+
+
+	//int mark;
+
+	//cout << "please enter mark ?" << endl;
+	//cin >> mark;
+
+	//if (mark >= 50)
+	//{
+	//	cout << "success" << endl;
+	//}
+	//else
+	//{
+	//	cout << "fall" << endl;
+
+	//}
+
+	/*float mark1, mark2, mark3;
+	cout << "please enter three marks :" << endl;
+	cin >> mark1;
+	cin >> mark2;
+	cin >> mark3;
+	float avr = (mark1 + mark2 + mark3) / 3;
+	if (avr >= 50)
+	{
+		cout << "success" << endl;
+	}
+	else
+	{
+		cout << "fail" << endl;
+	
+	}*/
+
+	/*int age;
+	cout << "please enter age ? " << endl;
+	cin >> age;
+
+	if (age >= 18 && age <= 45)
+	{
+		cout << " vaild age" << endl;
+	}
+	else 
+	{
+		cout << " invaild age" << endl;
+	
+	}
+	return 0;*/
+
+	int pin;
+	cout << "enter PIN " << endl;
+	cin >> pin;
+
+	if (pin == 1234)
+	{
+		cout << " your balance is 50000" << endl;
+	}
+	else 
+	{
+		cout << "wrong PIN" << endl;
+	}
+}
