@@ -1,0 +1,41 @@
+#include <iostream>
+using namespace std;
+
+
+
+int main()
+{
+	float totalSales, percentage, totalcommison;
+
+	cout << "Please enter totalsales : " << endl;
+	cin >> totalSales;
+
+	if (totalSales >= 1000000)
+	{
+		percentage = 0.01;
+		totalcommison = percentage * totalSales;
+	}
+	else if (totalSales >= 500000)
+	{
+		percentage = 0.02;
+		totalcommison = percentage * totalSales;
+	}
+	else if (totalSales >= 100000)
+	{
+		percentage = 0.03;
+		totalcommison = percentage * totalSales;
+	}
+	else if (totalSales >= 50000)
+	{
+		percentage = 0.05;
+		totalcommison = percentage * totalSales;
+	}
+	else
+	{
+		percentage = 0;
+		totalcommison = percentage * totalSales;
+	}
+
+	cout << "your totalcommison is :" << totalcommison;
+	return 0;
+}
