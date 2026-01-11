@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+
+
+
+int main()
+{
+	float num1, num2;
+	string operationType;
+
+	cout << "please enter number 1 : " << endl;
+	cin >> num1;
+
+	cout << "please enter number 2 : " << endl;
+	cin >> num2;
+
+	cout << "please enter operation type : " << endl;
+	cin >> operationType;
+
+	if (operationType == "+")
+	{
+		cout << num1 << " + " << num2 << " = " << num1 + num2 << endl;
+	}
+	else if (operationType == "-")
+	{
+		cout << num1 << " - " << num2 << " = " << num1 - num2 << endl;
+	}
+	else if (operationType == "*")
+	{
+		cout << num1 << " * " << num2 << " = " << num1 * num2 << endl;
+	}
+	else
+	{
+		cout << num1 << " / " << num2 << " = " << num1 / num2 << endl;
+	}
+	return 0;
+}
