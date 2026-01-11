@@ -1,0 +1,54 @@
+#include <iostream>
+using namespace std;
+
+enum enCountryChoice { Jordan = 1, Tunisa = 2, Algeria = 3, Oman = 4, Egypt = 5, Iraq = 6, Other = 7 };
+
+int main()
+{
+	cout << "***********************************\n";
+	cout << "Please Chose the number of your country? \n";
+	cout << "(1) Jordan\n";
+	cout << "(2) Tunisa\n";
+	cout << "(3) Algeria\n";
+	cout << "(4) Omen\n";
+	cout << "(5) Egypt\n";
+	cout << "(6) Iraq\n";
+	cout << "(7) Other\n";
+	cout << "***********************************\n";
+	cout << "Your Choice? \n";
+	int c;
+	enCountryChoice Country;
+
+	cin >> c;
+	Country = (enCountryChoice)c;
+
+	if (Country == enCountryChoice::Jordan)
+	{
+		cout << "Your Country is Jordan\n";
+	}
+	else if (Country == enCountryChoice::Tunisa)
+	{
+		cout << "Your Country is Tunisa\n";
+	}
+	else if (Country == enCountryChoice::Algeria)
+	{
+		cout << "Your Country is Algeria\n";
+	}
+	else if (Country == enCountryChoice::Oman)
+	{
+		cout << "Your Country is Oman\n";
+	}
+	else if (Country == enCountryChoice::Egypt)
+	{
+		cout << "Your Country is Egypt\n";
+	}
+	else if (Country == enCountryChoice::Iraq)
+	{
+		cout << "Your Country is Iraq\n";
+	}
+	else
+	{
+		cout << "Your Country is Other\n";
+	};
+	return 0;
+}
