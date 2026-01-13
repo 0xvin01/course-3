@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+	int N;
+	int sum = 0;
+	cout << "please enter your number" << endl;
+	cin >> N;
+
+
+	for (int i = 0; i <= N; i++)
+	{
+		if ( i % 2 != 0)
+		{
+		
+			sum += i;
+		}
+	}
+	cout << sum << endl;
+	return 0;
+}
