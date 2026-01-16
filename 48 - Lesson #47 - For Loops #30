@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+	int N;
+	int factorial = 1;
+	cout << "please enter number : " << endl;
+	cin >> N;
+	if (N <= 0)
+	{
+		cout << "factorial must be posative number " << endl;
+	}
+
+	for (int i = N; i >= 1; i--)
+	{
+		factorial = factorial * i;
+	}
+	cout << factorial;
+	return 0;
+}
