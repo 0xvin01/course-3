@@ -1,0 +1,30 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+int main()
+{
+    int n,m;
+    int p = 1;
+    int i = 0;
+    cout << "please enter n : " << endl;
+    cin >> n;
+    cout << "please enter m : " << endl;
+    cin >> m;
+   if (m == 0)
+   {
+       cout << p << endl;
+   
+   }
+
+   while (i != m)
+   {
+       p = p * n;
+       i++;
+   
+   }
+   cout << p;
+
+    return 0;
+}
