@@ -1,0 +1,27 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+int main()
+{
+    int n;
+    cout << "please enter n : " << endl;
+    cin >> n;
+    int factorial = 1;
+    while (n <= 0)
+    {
+        cout << "Factorial must be positive Number :" << endl;
+       
+    }
+ 
+  for (int i = n; i >= 1; i--)
+  {
+  
+      factorial = factorial * i;
+  
+  }
+  cout << factorial;
+
+    return 0;
+}
