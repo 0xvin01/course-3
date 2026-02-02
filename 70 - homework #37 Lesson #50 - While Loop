@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    int n = 0;
+    int sum = 0;
+
+    cout << "please enter n : " << endl;
+    while (n != -99)
+    {
+        cin >> n;
+        if (n == -99)
+            break;
+        sum += n;
+    }
+   cout << sum;
+    return 0;
+}
