@@ -1,0 +1,39 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+
+void readsecurityPIN(int &securitycode)
+{
+    cout << "please enter PIN form 4 numbers" << endl;
+    cin >> securitycode;
+
+
+}
+
+void checksecurityPIN(int securitycode)
+{
+    while (securitycode == 1234)
+    {
+        cout << " your balance is 7500 " << endl;
+        break;
+    }
+    if (securitycode != 1234)
+    {
+
+        cout << "Wrong PIN ";
+
+    }
+
+}
+
+int main()
+{
+    int securitycode;
+
+    readsecurityPIN(securitycode);
+    checksecurityPIN(securitycode);
+    
+    return 0;
+}
